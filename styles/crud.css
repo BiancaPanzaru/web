@@ -1,0 +1,28 @@
+.card {
+    background-color: #ffffff; /* Schimbă culoarea cardului */
+    border: 1px solid #dee2e6; /* Schimbă culoarea marginii cardului */
+  }
+
+.card-header {
+    background-color: #b23a62; /* Schimbă culoarea antetului cardului */
+  }
+
+  .btn-success {
+    background-color: #b23a62; /* Schimbă culoarea butonului Submit */
+    border-color: #b23a62; 
+  }
+
+  .btn-success:hover {
+    background-color: #8f1161; /* Culoarea butonului Submit la hover */
+    border-color: #8f1161; /* Culoarea marginii butonului Submit la hover */
+  }
+
+
+  .btn-info {
+    background-color: #b23a62; /* Schimbă culoarea butonului Cancel */
+    border-color: #b23a62; /* Schimbă culoarea marginii butonului Cancel */
+  }
+  .btn-info:hover {
+    background-color: #8f1161; /* Culoarea butonului Submit la hover */
+    border-color: #8f1161; /* Culoarea marginii butonului Submit la hover */
+  }

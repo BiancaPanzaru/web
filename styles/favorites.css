@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Ascunderea derulării orizontale */
+    overflow-y: auto; /* Permiterea derulării verticale */
+}
+header {
+    background-color: #cf4d78; /* Culoarea visiniu */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px; /* Mărimea fontului */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    nav {
+    display: flex;
+    justify-content: center;
+    }
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    }
+    nav a:hover {
+    color: #fff;
+    }
+
+.delete-heart {
+    cursor: pointer;
+    font-size: 24px; /* Dimensiunea inimii */
+    color: #cf4d78; /* Culoarea inimii */
+    position: absolute; /* Plasare absolută */
+    top: 10px; /* Distanța de sus */
+    right: 10px; /* Distanța de dreapta */
+    transition: color 0.3s; /* Efect de tranziție */
+}
+
+.delete-heart:hover {
+    color: #ad395c; /* Culoarea inimii la hover */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    position: relative; /* Pentru a asigura poziționarea relativă a inimii */
+}
+
+.artwork {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: relative; /* Setam pozitie relativa pentru a avea un referent de pozitionare absoluta */
+}
+
+.artwork img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.artwork h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.artwork p {
+    margin: 0;
+    color: #666;
+}
+
+footer {
+    background-color: #cf4d78;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+

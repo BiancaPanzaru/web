@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    min-height: 100vh;
+}
+
+header {
+background-color: #cf4d78; /* Culoarea visiniu */
+color: #fff;
+padding: 10px;
+text-align: center;
+font-size: 20px; /* Mărimea fontului */
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav {
+display: flex;
+justify-content: center;
+}
+nav a {
+color: #fff;
+text-decoration: none;
+margin: 0 10px;
+font-size: 16px;
+transition: color 0.3s ease;
+}
+nav a:hover {
+color: #fff;
+}
+
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#searchContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #cf4d78;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ad395c;
+}
+
+#artworks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.artwork {
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.artwork img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.artwork h2 {
+    margin: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.artwork p {
+    margin: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+footer {
+    background-color: #cf4d78;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.favorite-button {
+    padding: 5px 10px;
+    background-color: #cf4d78;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.favorite-heart {
+    cursor: pointer;
+    font-size: 24px; /* Dimensiunea inimii */
+    color: #ccc; /* Culoarea gri */
+    float: right; /* Plasare în dreapta */
+    transition: color 0.3s; /* Efect de tranziție */
+}
+
+.favorite-heart:hover {
+    color: #cf4d78; /* Culoarea inimii la hover */
+}
+
+.favorite-heart.added {
+    color: #cf4d78; /* Culoarea inimii atunci când este adăugată la favorite */
+}
+footer {
+    background-color: #cf4d78; /* Culoarea visiniu */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px; /* Mărimea fontului */
+    width: 100%;
+    margin-top: auto;
+}

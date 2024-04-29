@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Ascunderea derulării orizontale */
+    overflow-y: auto; /* Permiterea derulării verticale */
+}
+
+    header {
+        background-color: #cf4d78; /* Culoarea visiniu */
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        font-size: 20px; /* Mărimea fontului */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 16px;
+        transition: color 0.3s ease;
+    }
+    nav a:hover {
+        color: #fff;
+    }
+    .container {
+        max-width: 960px;
+        margin: 20px auto;
+        padding: 0 20px;
+        display: flex; /* Setare container flex pentru a alinia conținutul */
+        justify-content: space-between; /* Aliniere la marginea stângă și dreaptă a containerului */
+    }
+    .about {
+        display: flex;
+        flex-direction: column; /* Așezare verticală a conținutului */
+        flex: 1; /* Poziționare flexibilă a elementului */
+        padding: 0 20px; /* Spațiu la stânga și la dreapta pentru conținut */
+    }
+    .about img {
+        width: 100%; /* Imaginile ocupă întreaga lățime a containerului */
+        margin-bottom: 20px; /* Spațiu între imaginile */
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease; /* Efect de tranziție pentru mărirea imaginii */
+    }
+    .about img:hover {
+        transform: scale(1.1); /* Mărire la trecerea mouse-ului peste imagine */
+    }
+    .about img.clicked {
+        transform: scale(2); /* Mărire când este apăsată */
+    }
+    .about p {
+        text-align: justify;
+        font-size: 18px; /* Mărimea fontului */
+        line-height: 1.6; /* Spațierea între rânduri */
+        color: #333; /* Culoarea textului */
+        margin-bottom: 20px; /* Spațierea între paragrafe */
+    }
+    footer {
+        background-color: #cf4d78; /* Culoarea visiniu */
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px; /* Mărimea fontului */
+        width: 100%;
+    }
